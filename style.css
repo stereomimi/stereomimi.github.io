@@ -1,0 +1,97 @@
+@font-face {
+    font-family: NecAPC3_8x16;
+    src: url(Web437_NEC_APC3_8x16.woff);
+}
+
+@font-face {
+    font-family: NecAPC3_8x8_2y;
+    src: url(Web437_NEC_APC3_8x8-2y.woff);
+}
+
+html {
+    font-size: 2vmin;
+    font-family: NecAPC3_8x16;
+    background-color: #1c221c;
+    color: #e0c9e0;
+}
+
+header, body {
+    margin: 0px;
+}
+header h1 {
+    text-align: center;
+    font-size: 6em;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: NecAPC3_8x8_2y;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+li {
+    list-style: none;   
+}
+
+li:hover {
+    background-color: #1c221c;
+    color: #e0c9e0;
+}
+
+header {
+    margin-bottom: 4em;
+}
+
+.content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_box {
+    width: 40em;
+    max-width: 980%;
+    background-color: #e0c9e0 ;
+    color: #1c221c;
+    margin-bottom: 1em;
+}
+
+.content_box h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.content_box ul {
+    margin-top: 0;
+}
+
+.content_box p {
+    font-size: 2em;
+    text-align: center;
+    padding: 0 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 1vmin;
+    }
+}
