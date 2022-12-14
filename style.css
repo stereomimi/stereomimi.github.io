@@ -1,40 +1,65 @@
 @font-face {
-    font-family: NecAPC3_8x16;
-    src: url(Web437_NEC_APC3_8x16.woff);
+    font-family: DOS_V_re_JPN12;
+    src: url(Web437_DOS-V_re_JPN12.woff);
 }
 
 @font-face {
-    font-family: NecAPC3_8x8_2y;
-    src: url(Web437_NEC_APC3_8x8-2y.woff);
+    font-family: DOS_V_re_JPN30;
+    src: url(Web437_DOS-V_re_JPN30.woff);
+}
+
+@font-face {
+    font-family: Portfolio;
+    src: url(Web437_Portfolio_6x8.woff);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
 html {
-    font-size: 2vmin;
-    font-family: NecAPC3_8x16;
+    font-size: 16px;
+    font-family: Portfolio;
     background-color: #1c221c;
     color: #e0c9e0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+h1, h2 {
+    font-weight: normal;
 }
 
 header, body {
     margin: 0px;
 }
+
 header h1 {
     text-align: center;
-    font-size: 6em;
-    margin-bottom: 0;
+    font-size: 90px;
+    font-family: DOS_V_re_JPN30;
+    margin: 0;
+    padding: 0;
 }
 
 header h2 {
-    font-family: NecAPC3_8x8_2y;
     text-align: center;
-    font-size: 2em;
-    margin-top: 0px;
+    margin: 0px;
+    padding: 0;
+    font-family: DOS_V_re_JPN12;
+    font-size: 24px;
 }
 
 ul {
     padding: 0;
     text-align: center;
-    font-size: 2em;
 }
 
 li {
@@ -47,7 +72,7 @@ li:hover {
 }
 
 header {
-    margin-bottom: 4em;
+    margin-bottom: 32px;
 }
 
 .content_container {
@@ -57,8 +82,7 @@ header {
 }
 
 .content_box {
-    width: 40em;
-    max-width: 980%;
+    width: 480px;
     background-color: #e0c9e0 ;
     color: #1c221c;
     margin-bottom: 1em;
@@ -66,9 +90,11 @@ header {
 
 .content_box h1 {
     text-align: center;
-    font-size: 2em;
     margin-bottom: 0;
     text-transform: uppercase;
+    font-size: inherit;
+    font-family: DOS_V_re_JPN12;
+    font-size: 24px;
 }
 
 .content_box ul {
@@ -76,22 +102,27 @@ header {
 }
 
 .content_box p {
-    font-size: 2em;
     text-align: center;
+    margin-top: 0;
     padding: 0 1em;
 }
 
 a {
     text-decoration: none;
+    color: #1c221c;
 }
 
 a:visited {
     text-decoration: none;
-    color: inherit;
+    color: #1c221c;
 }
 
-@media only screen and (min-width: 768px) {
-    html {
-        font-size: 1vmin;
-    }
+li:hover a {
+    color: #e0c9e0;
 }
+
+/*@media only screen and (min-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+}*/
