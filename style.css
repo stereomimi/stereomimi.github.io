@@ -1,0 +1,109 @@
+.container {
+    max-width: 1440px;
+    width: 90%;
+}
+
+.chat_messages li {
+    list-style-type: '>';
+    padding-inline-start: 1ch;
+    margin-inline-start: 1ch;
+    padding-bottom: 0.5ch;
+}
+
+.experiences li {
+    list-style-type: '-';
+    padding-inline-start: 1ch;
+    margin-inline-start: 1ch;
+}
+
+.accent_span {
+    background-color: #FFFFFF;
+    color: #00A8A8;
+}
+
+a, a:link, a:visited {
+    background-color: #A800A8;
+    color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+a:hover {
+    background-color: #FFFFFF;
+    color: #00A8A8;
+}
+
+a:active {
+    background-color: #00A8A8;
+    color: #FFFFFF;
+}
+
+a:focus {
+    background-color: #FFFFFF;
+    color: #00A8A8;
+}
+
+.tui-window {
+    margin-top: 2ch;
+}
+
+.tui-tab {
+    color: #FFFFFF;
+    background-color: #00A8A8;
+    text-decoration-line: none;
+}
+
+.tui-tab.active {
+    color: #FFFFFF;
+    background-color: #A800A8;
+}
+
+.tui-tab-content {
+    padding: 0ch 2ch;
+}
+.tui-tab-content {
+    text-align: center;
+}
+
+.tui-tab-content a.tui-button, .tui-tab-content a.tui-button:hover {
+    text-decoration-line: none;
+    color: #FFFFFF;
+    background-color: #00A8A8;
+}
+
+.tui-tab-content a.tui-button:active, .tui-tab-content a.tui-button:focus {
+    text-decoration-line: none;
+    background-color: #FFFFFF !important;
+    color: #00A8A8 !important;
+}
+
+.container .pure-u-1-2, .container .pure-u-1 {
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
+.tui-nav a, .tui-nav a:link, .tui-nav a:visited {
+    background-color: transparent;
+    color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+.tui-nav a:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.tui-nav a:active {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.tui-nav a:focus {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 35.5em) {
+    .tui-nav .tui-datetime {
+        display: none;
+    }
+}

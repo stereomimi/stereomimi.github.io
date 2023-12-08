@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="tui-bg-cyan-black">
+    <head>
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="tuicss/tuicss.min.css"/>
+        <script src="tuicss/tuicss.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+        <link rel="stylesheet" href="style.css"/>
+
+        <title>StereoMimi</title>
+    </head>
+
+    <body>
+        <nav class="tui-nav purple-168 white-255-text">
+            <ul>
+                <li class="purple-168-hover">StereoMimi</li>
+
+                <li class="cyan-168-hover">
+                    <a href="https://github.com/sponsors/stereomimi">Sponsor me &lt;3</a>
+                </li>
+
+                <li class="tui-datetime purple-168-hover" data-format="h:m:s a"></li>
+            </ul>
+        </nav>
+        <br><br>
+        <div class="container" id="content_cards">
+            <div class="pure-g">
+                <div class="pure-u-1 pure-u-md-1-2" style="display: flex; flex-direction: column;">
+                    <div class="tui-window purple-168 full-width" style="flex-grow: 1;">
+                        <fieldset class="tui-fieldset full-height">
+                            <legend>About Me</legend>
+                            <ul class="chat_messages">
+                                <li>Hello!</li>
+                                <li>I'm <span class="accent_span">Maria</span>, also known as <span class="accent_span">StereoMimi</span>!</li>
+                                <li>I'm an 18 year old student and computer programmer with 5 years of experience.</li>
+                                <li>My focus lies in <span class="accent_span">system hardware development</span>, but I also know how to work with <span class="accent_span">back-end servers</span>.</li>
+                                <li>I also enjoy drawing and 3d modeling!</li>
+                            </ul>
+                        </fieldset>
+                    </div>
+
+                    <div class="tui-window purple-168 full-width">
+                        <fieldset class="tui-fieldset full-height">
+                            <legend>Contacts and URLs</legend>
+                            <ul class="contacts">
+                                <li>
+                                    Email:
+                                    <span class="right" style="overflow-wrap: anywhere;">stereomimi56709@gmail.com</span>
+                                </li>
+                                <li>
+                                    Github:
+                                    <a href="https://github.com/stereomimi" class="right">@stereomimi</a>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </div>
+                
+                <div class="pure-u-1 pure-u-md-1-2" style="display: flex; flex-direction: column;">
+                    <div class="tui-window purple-168 full-width full-height">
+                        <fieldset class="tui-fieldset full-height">
+                            <legend>Experience</legend>
+                            Languages:
+                            <ul class="experiences">
+                                <li>C, C++, Rust, Z80 Assembly</li>
+                                <li>Javascript, PHP, Python</li>
+                                <li>Lua, C#</li>
+                            </ul>
+                            <br>
+                            <div class="tui-divider"></div>
+                            <br>
+
+                            Frameworks, DBs and DevOps:
+                            <ul class="experiences">
+                                <li>NodeJS, Electron</li>
+                                <li>MySQL, MariaSQL, SQLite</li>
+                                <li>Git, GitHub, Docker</li>
+                            </ul>
+                            <br>
+                            <div class="tui-divider"></div>
+                            <br>
+
+                            Hardware and Architectures:
+                            <ul class="experiences">
+                                <li>Modern x86 Computers</li>
+                                <li>NeoGeo</li>
+                                <li>GameBoy Advance</li>
+                                <li>Sega Saturn</li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="pure-u-1">
+                    <div class="tui-window purple-168 full-width full-height" style="padding: 0;">
+                        <div class="tui-tabs cyan-168">
+                            <ul>
+                                <li><a class="tui-tab active" data-tab-content="tab-1-content">MZS Neogeo Audio Driver</a></li>
+                                <li><a class="tui-tab" data-tab-content="tab-2-content">Dream Reporter Prototype</a></li>
+                            </ul>
+                        </div>
+                        <div id="tab-1-content" class="tui-tab-content">
+                            <h3>MZS Neogeo Audio Driver</h3>
+
+                            An audio driver for the NeoGeo developed in Z80 assembly.<br>
+                            It handles music and SFX playback, supporting FM, SSG and ADPCM-A channels.<br>
+                            It's used in various games and homebrew projects, such as <a href="https://fullset.io">Project Neon</a>!<br>
+                            The newest 2.0 alpha branch is in development!<br>
+
+                            <br>
+                            <div class="tui-divider"></div>
+                            <br>
+
+                            <a class="tui-button left" href="https://github.com/stereomimi/Mezz-Estate-NeoGeo-Audio-Driver">Repository</a>
+                        </div>
+                        <div id="tab-2-content" class="tui-tab-content">
+                            <h3>Dream Reporter Prototype</h3>
+
+                            A game prototype made in 3 days submitted for the <a href="https://itch.io/jam/mini-jam-114-anime">114th MiniJam</a>!<br>
+                            It's programmed using love2d, and its graphic assets have been made using aseprite.<br>
+                            The thumbnail and other game page assets were drawn by <a href="rubyyogurt.carrd.co">RubyYogurt</a>!<br>
+                            <br>
+                            <div class="tui-divider"></div>
+                            <br>
+
+                            <a class="tui-button left" href="https://stereomimi.itch.io/dream-reporter">itch.io</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
